@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: black !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.outer_wrapper_input{
+    width: 40%;
+    height: 35vh;
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(89, 91, 92);
+}
+.heading_text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+label{
+   margin-left: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.message_field{
+    margin-left: 20px;
+    /* margin-top: 20px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.message-icon{
+    background-color: whitesmoke;
+    padding: 5px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 5px;
+    border: none;
+}
+.input_field{
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px;
+
+}
+.button_quote{
+    width: 100px;
+    height: 30px;
+    background-color: brown;
+    border: none;
+    border-radius: 5px;
+    color: beige;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#text{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    overflow: hidden;
+}
+@media screen and (max-width: 680px){
+    .outer_wrapper_input{
+        width: 90%;
+        height: auto;
+        background-color: gray;
+        border-radius: 10px;
+    }
+    .heading_text{
+        width: 100%;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    label{
+       font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .message-icon{
+        background-color: whitesmoke;
+        padding: 5px;
+        height: 40px;
+        border-radius: 5px;
+        margin-right: 5px;
+        border: none;
+    }
+    .input_field{
+        width: 80%;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+    
+    }
+    .button_quote{
+        width: 100px;
+        height: 30px;
+        background-color: brown;
+        border: none;
+        border-radius: 5px;
+        color: beige;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    #text{
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+    } 
+}
